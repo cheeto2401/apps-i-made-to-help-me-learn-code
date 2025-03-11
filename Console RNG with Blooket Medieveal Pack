@@ -1,0 +1,22 @@
+const uncommon = 'You got a Elf Blook'
+const rare = 'You got a Jester Blook'
+const epic = 'You got a Unicorn Blook'
+const legendary = 'You got a King Blook'
+const supreme = 'You got a Agent Owl Blook'
+const mythical = 'You got a Dark Dragon Blook'
+
+let chance = Math.random()
+
+if (chance >= .8) {
+    console.log(uncommon)
+} else if (chance >= .25) {
+    console.log(rare)
+} else if (chance >= .1) {
+    console.log(epic)
+} else if (chance >= .01) {
+    console.log(legendary)
+} else if (chance >= .0005) {
+    console.log(supreme)
+} else if (chance >= .000001) {
+    console.log(mythical)
+}
